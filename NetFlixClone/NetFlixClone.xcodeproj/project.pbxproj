@@ -13,6 +13,8 @@
 		041A22E52864691A0029E07F /* DownloadsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041A22E42864691A0029E07F /* DownloadsViewController.xib */; };
 		041A22E928646B300029E07F /* Decodable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A22E828646B300029E07F /* Decodable+Ext.swift */; };
 		041A22EB28646B4E0029E07F /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A22EA28646B4E0029E07F /* Data+Ext.swift */; };
+		041A22FC286472760029E07F /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A22FB286472760029E07F /* MovieTableViewCell.swift */; };
+		041A22FE286475070029E07F /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041A22FD286475070029E07F /* MovieTableViewCell.xib */; };
 		044341D128638F5E00E0509E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044341D028638F5E00E0509E /* AppDelegate.swift */; };
 		044341D328638F5E00E0509E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044341D228638F5E00E0509E /* SceneDelegate.swift */; };
 		044341D528638F5E00E0509E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044341D428638F5E00E0509E /* MainTabBarViewController.swift */; };
@@ -32,6 +34,8 @@
 		041A22E42864691A0029E07F /* DownloadsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownloadsViewController.xib; sourceTree = "<group>"; };
 		041A22E828646B300029E07F /* Decodable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+Ext.swift"; sourceTree = "<group>"; };
 		041A22EA28646B4E0029E07F /* Data+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Ext.swift"; sourceTree = "<group>"; };
+		041A22FB286472760029E07F /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		041A22FD286475070029E07F /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 		044341CD28638F5E00E0509E /* NetFlixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetFlixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044341D028638F5E00E0509E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044341D228638F5E00E0509E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,24 @@
 				041A22EA28646B4E0029E07F /* Data+Ext.swift */,
 			);
 			path = "Kit+Ext";
+			sourceTree = "<group>";
+		};
+		041A22F5286471F20029E07F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				041A22DC2864675A0029E07F /* HomeViewController.xib */,
+				041A22FA2864724A0029E07F /* MovieCell */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		041A22FA2864724A0029E07F /* MovieCell */ = {
+			isa = PBXGroup;
+			children = (
+				041A22FB286472760029E07F /* MovieTableViewCell.swift */,
+				041A22FD286475070029E07F /* MovieTableViewCell.xib */,
+			);
+			path = MovieCell;
 			sourceTree = "<group>";
 		};
 		044341C428638F5E00E0509E = {
@@ -125,7 +147,7 @@
 		04DCCAA328646048003B5F0A /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				041A22DC2864675A0029E07F /* HomeViewController.xib */,
+				041A22F5286471F20029E07F /* Home */,
 				041A22E0286468AC0029E07F /* UpcommingViewController.xib */,
 				041A22E2286468D50029E07F /* SearchViewController.xib */,
 				041A22E42864691A0029E07F /* DownloadsViewController.xib */,
@@ -211,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				041A22E52864691A0029E07F /* DownloadsViewController.xib in Resources */,
+				041A22FE286475070029E07F /* MovieTableViewCell.xib in Resources */,
 				044341DD28638F6000E0509E /* LaunchScreen.storyboard in Resources */,
 				044341DA28638F6000E0509E /* Assets.xcassets in Resources */,
 				041A22E1286468AC0029E07F /* UpcommingViewController.xib in Resources */,
@@ -268,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041A22FC286472760029E07F /* MovieTableViewCell.swift in Sources */,
 				04DCCAA028644B50003B5F0A /* SearchViewController.swift in Sources */,
 				044341D528638F5E00E0509E /* MainTabBarViewController.swift in Sources */,
 				04DCCAA228644B67003B5F0A /* DownloadsViewController.swift in Sources */,

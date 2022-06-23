@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="NetFlixClone" customModuleProvider="target">
             <connections>
+                <outlet property="table" destination="Cms-gE-gXZ" id="ddC-A5-hRQ"/>
                 <outlet property="view" destination="VDF-Gr-bf2" id="jE5-Y9-q9a"/>
             </connections>
         </placeholder>
@@ -17,8 +18,20 @@
         <view contentMode="scaleToFill" id="VDF-Gr-bf2">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Cms-gE-gXZ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="2d2-7U-E7R"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="2d2-7U-E7R" firstAttribute="bottom" secondItem="Cms-gE-gXZ" secondAttribute="bottom" id="0qP-Ol-FbS"/>
+                <constraint firstItem="Cms-gE-gXZ" firstAttribute="top" secondItem="VDF-Gr-bf2" secondAttribute="top" id="Jg6-O1-wgT"/>
+                <constraint firstItem="Cms-gE-gXZ" firstAttribute="leading" secondItem="VDF-Gr-bf2" secondAttribute="leading" id="JpB-TT-kFR"/>
+                <constraint firstAttribute="trailing" secondItem="Cms-gE-gXZ" secondAttribute="trailing" id="y3J-mC-uZ5"/>
+            </constraints>
             <point key="canvasLocation" x="-33" y="-915"/>
         </view>
     </objects>
