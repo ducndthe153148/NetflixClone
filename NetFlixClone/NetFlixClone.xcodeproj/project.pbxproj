@@ -11,6 +11,8 @@
 		041A22E1286468AC0029E07F /* UpcommingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041A22E0286468AC0029E07F /* UpcommingViewController.xib */; };
 		041A22E3286468D50029E07F /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041A22E2286468D50029E07F /* SearchViewController.xib */; };
 		041A22E52864691A0029E07F /* DownloadsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041A22E42864691A0029E07F /* DownloadsViewController.xib */; };
+		041A22E928646B300029E07F /* Decodable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A22E828646B300029E07F /* Decodable+Ext.swift */; };
+		041A22EB28646B4E0029E07F /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A22EA28646B4E0029E07F /* Data+Ext.swift */; };
 		044341D128638F5E00E0509E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044341D028638F5E00E0509E /* AppDelegate.swift */; };
 		044341D328638F5E00E0509E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044341D228638F5E00E0509E /* SceneDelegate.swift */; };
 		044341D528638F5E00E0509E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044341D428638F5E00E0509E /* MainTabBarViewController.swift */; };
@@ -20,6 +22,7 @@
 		04DCCA9E28644B3C003B5F0A /* UpcommingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCCA9D28644B3C003B5F0A /* UpcommingViewController.swift */; };
 		04DCCAA028644B50003B5F0A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCCA9F28644B50003B5F0A /* SearchViewController.swift */; };
 		04DCCAA228644B67003B5F0A /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCCAA128644B67003B5F0A /* DownloadsViewController.swift */; };
+		190EE10C198C482EAC50B830 /* Pods_NetFlixClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119D0BE113A94D168705B81D /* Pods_NetFlixClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,8 @@
 		041A22E0286468AC0029E07F /* UpcommingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcommingViewController.xib; sourceTree = "<group>"; };
 		041A22E2286468D50029E07F /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		041A22E42864691A0029E07F /* DownloadsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownloadsViewController.xib; sourceTree = "<group>"; };
+		041A22E828646B300029E07F /* Decodable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+Ext.swift"; sourceTree = "<group>"; };
+		041A22EA28646B4E0029E07F /* Data+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Ext.swift"; sourceTree = "<group>"; };
 		044341CD28638F5E00E0509E /* NetFlixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetFlixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044341D028638F5E00E0509E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044341D228638F5E00E0509E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		04DCCA9D28644B3C003B5F0A /* UpcommingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcommingViewController.swift; sourceTree = "<group>"; };
 		04DCCA9F28644B50003B5F0A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		04DCCAA128644B67003B5F0A /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		119D0BE113A94D168705B81D /* Pods_NetFlixClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetFlixClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DDE56F12A679E7462E5CB9 /* Pods-NetFlixClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetFlixClone.release.xcconfig"; path = "Target Support Files/Pods-NetFlixClone/Pods-NetFlixClone.release.xcconfig"; sourceTree = "<group>"; };
+		C588EB5421469F98974C76CA /* Pods-NetFlixClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetFlixClone.debug.xcconfig"; path = "Target Support Files/Pods-NetFlixClone/Pods-NetFlixClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190EE10C198C482EAC50B830 /* Pods_NetFlixClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041A22E628646A4A0029E07F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				041A22E728646A820029E07F /* Kit+Ext */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		041A22E728646A820029E07F /* Kit+Ext */ = {
+			isa = PBXGroup;
+			children = (
+				041A22E828646B300029E07F /* Decodable+Ext.swift */,
+				041A22EA28646B4E0029E07F /* Data+Ext.swift */,
+			);
+			path = "Kit+Ext";
+			sourceTree = "<group>";
+		};
 		044341C428638F5E00E0509E = {
 			isa = PBXGroup;
 			children = (
 				044341CF28638F5E00E0509E /* NetFlixClone */,
 				044341CE28638F5E00E0509E /* Products */,
+				AA1C27C598AC0D37A6ED8D7B /* Pods */,
+				04F3F1E06AF916699098610C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +98,7 @@
 		044341CF28638F5E00E0509E /* NetFlixClone */ = {
 			isa = PBXGroup;
 			children = (
+				041A22E628646A4A0029E07F /* Util */,
 				04DCCAA328646048003B5F0A /* Presentation */,
 				044341E4286391B100E0509E /* Controllers */,
 				044341D028638F5E00E0509E /* AppDelegate.swift */,
@@ -104,6 +133,23 @@
 			path = Presentation;
 			sourceTree = "<group>";
 		};
+		04F3F1E06AF916699098610C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				119D0BE113A94D168705B81D /* Pods_NetFlixClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA1C27C598AC0D37A6ED8D7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C588EB5421469F98974C76CA /* Pods-NetFlixClone.debug.xcconfig */,
+				98DDE56F12A679E7462E5CB9 /* Pods-NetFlixClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -111,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044341E128638F6000E0509E /* Build configuration list for PBXNativeTarget "NetFlixClone" */;
 			buildPhases = (
+				85E18A05F92EB291AA7E400C /* [CP] Check Pods Manifest.lock */,
 				044341C928638F5E00E0509E /* Sources */,
 				044341CA28638F5E00E0509E /* Frameworks */,
 				044341CB28638F5E00E0509E /* Resources */,
+				6E16C0B1EF21F098D78FB87F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,6 +221,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E16C0B1EF21F098D78FB87F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetFlixClone/Pods-NetFlixClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetFlixClone/Pods-NetFlixClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetFlixClone/Pods-NetFlixClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85E18A05F92EB291AA7E400C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetFlixClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		044341C928638F5E00E0509E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -181,8 +271,10 @@
 				04DCCAA028644B50003B5F0A /* SearchViewController.swift in Sources */,
 				044341D528638F5E00E0509E /* MainTabBarViewController.swift in Sources */,
 				04DCCAA228644B67003B5F0A /* DownloadsViewController.swift in Sources */,
+				041A22EB28646B4E0029E07F /* Data+Ext.swift in Sources */,
 				044341D128638F5E00E0509E /* AppDelegate.swift in Sources */,
 				04DCCA9E28644B3C003B5F0A /* UpcommingViewController.swift in Sources */,
+				041A22E928646B300029E07F /* Decodable+Ext.swift in Sources */,
 				044341D328638F5E00E0509E /* SceneDelegate.swift in Sources */,
 				044341E6286391D200E0509E /* HomeViewController.swift in Sources */,
 			);
@@ -320,6 +412,7 @@
 		};
 		044341E228638F6000E0509E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C588EB5421469F98974C76CA /* Pods-NetFlixClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -346,6 +439,7 @@
 		};
 		044341E328638F6000E0509E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DDE56F12A679E7462E5CB9 /* Pods-NetFlixClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
